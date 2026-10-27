@@ -1,0 +1,9 @@
+# System Files
+.DS_Store
+*.swp
+*~
+
+# Screenshots & Temporary Files
+Screenshot*.png
+*.zip
+/tmp/
