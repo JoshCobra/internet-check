@@ -6,21 +6,21 @@ Creado por **[JoshCobra](https://github.com/JoshCobra)**.
 
 ---
 
-## ✨ Características
+##  Características
 
 - **Aplicación nativa para macOS (`InternetCheck.app`)**: Interfaz gráfica fluida con medidores en tiempo real, gráfica de velocidad en vivo, modo claro/oscuro y diagnóstico detallado.
 - **Sin dependencias externas**: Funciona con herramientas nativas del sistema (`curl`, `ping`, `awk`).
 - **Métricas completas**:
-  - 📶 **Señal Wi-Fi (RSSI)**, nivel de ruido y relación señal/ruido (SNR).
-  - 🔍 **Tiempo de resolución DNS**.
-  - ⚡ **Latencia (Ping)**, **Jitter** (estabilidad) y **Pérdida de paquetes**.
-  - ⬇️ **Velocidad de Descarga (Download)** en vivo vía Cloudflare Speedtest.
-  - ⬆️ **Velocidad de Subida (Upload)** en vivo vía Cloudflare Speedtest.
-  - 🏆 **Calificación global (0–100)** y recomendaciones según el uso (Gaming, Videollamadas, Streaming 4K).
+  -  **Señal Wi-Fi (RSSI)**, nivel de ruido y relación señal/ruido (SNR).
+  -  **Tiempo de resolución DNS**.
+  -  **Latencia (Ping)**, **Jitter** (estabilidad) y **Pérdida de paquetes**.
+  -  **Velocidad de Descarga (Download)** en vivo vía Cloudflare Speedtest.
+  -  **Velocidad de Subida (Upload)** en vivo vía Cloudflare Speedtest.
+  -  **Calificación global (0–100)** y recomendaciones según el uso (Gaming, Videollamadas, Streaming 4K).
 
 ---
 
-## 🚀 Instalación y Uso
+##  Instalación y Uso
 
 ### Opción 1: Aplicación nativa de macOS (`InternetCheck.app`)
 1. Descarga `InternetCheck.app.zip` desde la sección de **[Releases](https://github.com/JoshCobra/internet-check/releases)** o clona este repositorio.
@@ -47,7 +47,7 @@ python3 internet_check.py
 
 ---
 
-## 🛠️ Estructura del Proyecto
+##  Estructura del Proyecto
 
 - `InternetCheck.app`: Aplicación nativa de macOS (Universal Binary: Apple Silicon `arm64` + Intel `x86_64`), firmada por **JoshCobra** (`com.joshcobra.internetcheck`).
 - `internet_check.sh`: Motor principal en Bash para diagnóstico en terminal y emisión de telemetría en tiempo real (`--gui-stream`).
